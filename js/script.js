@@ -114,7 +114,7 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
           output('<div class="item">< </div>+54 223 4379870<br><div class="item">< </div>sag.gomez@gmail.com');
           break;
         case 'links':
-          output('<div class="item">< </div><a href="https://sant1g.com" target="_blank">sant1g.com</a><br><div class="item">< </div><a href="https://twitter.com/sant1g target="_blank"">twitter.com/sant1g</a><br><div class="item">< </div><a href="https://github.com/sant1g" target="_blank">github.com/sant1g</a>');
+          output('<div class="item">< </div><a href="https://sant1g.github.com" target="_blank">sant1g.github.com</a><br><div class="item">< </div><a href="https://twitter.com/sant1g target="_blank"">twitter.com/sant1g</a><br><div class="item">< </div><a href="https://github.com/sant1g" target="_blank">github.com/sant1g</a>');
           break;
         case 'exit':
           $('#container').toggle();
