@@ -1,0 +1,44 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #fff;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 11pt;
+  font-family: Inconsolata, monospace;
+  color: #222;
+}
+a, a:visited {
+  color: #adc;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #fff;
+}
+#container {
+  margin: 50px;
+  min-height: 20px;
+  padding: 1em 1.5em 1em 1em;
+  background-color: #ffffff;
+  position: relative;
+  border: 2px solid #222;
+}
+#container > h3 {
+  margin: 0;
+  font-size: 28px;
+}
+#container > h5 {
+  margin-bottom: -10px;
+}
+#container > ul {
+  padding-left: 14px;
+  list-style-type: square;
+}
+#container > ul > li {
+  margin-bottom: 3px;
+}
+#container > ul > li > span {
+  display: block;
+}
