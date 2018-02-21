@@ -45,3 +45,6 @@ a:hover {
 #container > ul > li > span {
   display: block;
 }
+#github {
+  margin: 5 auto;
+}
