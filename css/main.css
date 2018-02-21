@@ -9,13 +9,16 @@ body {
   font-family: Inconsolata, monospace;
   color: #222;
 }
-a, a:visited {
-  color: #adc;
-  text-decoration: underline;
+a, a:visited, a:focus {
+  color: #555;
+  text-decoration: none;
   transition: color 0.3s ease;
+  border: none;
+  outline: none;
 }
 a:hover {
-  color: #fff;
+  color: #222;
+  text-decoration: none;
 }
 #container {
   margin: 50px;
@@ -25,26 +28,32 @@ a:hover {
   position: relative;
   border: 2px solid #222;
 }
-#container > p {
+p {
   max-width: 700px;
 }
-#container > h3 {
+h3 {
+  font-weight: 700;
   margin: 0;
   font-size: 28px;
 }
-#container > h5 {
-  margin-bottom: -10px;
+h4 {
+  font-weight: 700;
 }
-#container > ul {
+h5 {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+ul {
   padding-left: 14px;
   list-style-type: square;
 }
-#container > ul > li {
+li {
   margin-bottom: 3px;
 }
-#container > ul > li > span {
+li > span {
   display: block;
 }
-#github {
-  margin: 5 auto;
+.centerlinks {
+  font-size: 24px;
+  text-align: center;
 }

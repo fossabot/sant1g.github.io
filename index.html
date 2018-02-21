@@ -6,67 +6,84 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="img/icon.png" type="image/png">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <title>Santiago A. Gómez</title>
 </head>
 <body>
     <div id="container">
         <h3>Santiago A. Gómez</h3>
-        <h4>Información:</h4>
-        <ul>
-            <li>Fecha de Nacimiento: 13/02/1994</li>
-            <li>Edad: 24</li>
-            <li>Nacionalidad: Argentino</li>
-            <li>Ubicación: Mar del Plata, Argentina</li>
-            <li>E-Mail: sag.gomez@gmail.com</li>
-            <li>Teléfono: (223) 4379870</li>
-            <li>DNI: 38006589</li>
-            <li>CUIL: 20-38006589-5</li>
-        </ul>
-        <h4>Objetivos:</h4>
-        <p>Desarrollarme profesionalmente y contribuir en el crecimiento de la compañía, participando activamente en los proyectos para mejorar, y ser un factor de cambio en el área en que me desempeño. Tambien creo en la filosofía del trabajo en equipo y siempre estoy abierto a nuevas ideas.</p>
-        <h4>Educación:</h4>
-        <h5>Presencial:</h5>
-        <ul>
-            <li>Colegio Sagrada Familia (2000-2008)<span>Educación General Básica</span></li>
-            <li>Instituto Industrial Pablo Tavelli (2009)<span>Polimodal</span></li>
-            <li>Establecimiento de Educación Media N°3 (2010-2012)<span>Nivel Secundario</span></li>
-            <li>Instituto Hilet (2016-2017)<span>Técnico en Reparación de PC</span></li>
-            <li>Instituto Superior de Estudios Técnicos (2017-Presente)<span>Tecnicatura Superior en Análisis de Sistemas</span></li>
-        </ul>
-        <h5>Online/A Distancia:</h5>
-        <ul>
-            <li>Lynda.com: PHP with MySQL - Beyond the Basics</li>
-            <li>Lynda.com: Foundations of programming Web Security</li>
-            <li>Lynda.com: Go Essential Training</li>
-        </ul>
-        <h4>Comunicación:</h4>
-        <ul>
-            <li>Español: Nativo</li>
-            <li>Inglés: Avanzado</li>
-        </ul>
-        <h4>Habilidades:</h4>
-        <h5>Ofimática:</h5>
-        <ul>
-            <li>Microsoft Word: Avanzado</li>
-            <li>Microsoft PowerPoint: Avanzado</li>
-            <li>Microsoft Excel: Avanzado</li>
-        </ul>
-        <h5>Diseño Gráfico y Web:</h5>
-        <ul>
-            <li>Adobe Photoshop: Avanzado</li>
-            <li>HTML: Avanzado</li>
-            <li>CSS: Avanzado</li>
-            <li>JS: Intermedio</li>
-        </ul>
-        <h5>Desarrollo:</h5>
-        <ul>
-            <li>PHP: Avanzado (con conocimientos de los frameworks más utilizados)</li>
-            <li>MySQL: Intermedio</li>
-            <li>C: Intermedio</li>
-            <li>Ruby: Básico</li>
-            <li>Go: Básico</li>
-        </ul>
+        <a data-toggle="collapse" href="#collapseInfo"><h4>Información <i class="fa fa-angle-down"></i></h4></a>
+        <div class="collapse" id="collapseInfo">
+            <ul>
+                <li>Fecha de Nacimiento: 13/02/1994</li>
+                <li>Edad: 24</li>
+                <li>Nacionalidad: Argentino</li>
+                <li>Ubicación: Mar del Plata, Argentina</li>
+                <li>E-Mail: sag.gomez@gmail.com</li>
+                <li>Teléfono: (223) 4379870</li>
+                <li>DNI: 38006589</li>
+                <li>CUIL: 20-38006589-5</li>
+            </ul>
+        </div>
+        <a data-toggle="collapse" href="#collapseObj"><h4>Objetivos <i class="fa fa-angle-down"></i></h4></a>
+        <div class="collapse" id="collapseObj">
+            <p>Desarrollarme profesionalmente y contribuir en el crecimiento de la compañía, participando activamente en los proyectos para mejorar, y ser un factor de cambio en el área en que me desempeño. Tambien creo en la filosofía del trabajo en equipo y siempre estoy abierto a nuevas ideas.</p>
+        </div>
+        <a data-toggle="collapse" href="#collapseEdu"><h4>Educación <i class="fa fa-angle-down"></i></h4></a>
+        <div class="collapse" id="collapseEdu">
+            <h5>Presencial:</h5>
+            <ul>
+                <li>Colegio Sagrada Familia (2000-2008)<span>Educación General Básica</span></li>
+                <li>Instituto Industrial Pablo Tavelli (2009)<span>Polimodal</span></li>
+                <li>Establecimiento de Educación Media N°3 (2010-2012)<span>Nivel Secundario</span></li>
+                <li>Instituto Hilet (2016-2017)<span>Técnico en Reparación de PC</span></li>
+                <li>Instituto Superior de Estudios Técnicos (2017-Presente)<span>Tecnicatura Superior en Análisis de Sistemas</span></li>
+            </ul>
+            <h5>Online/A Distancia:</h5>
+            <ul>
+                <li>Lynda.com: PHP with MySQL - Beyond the Basics</li>
+                <li>Lynda.com: Foundations of programming Web Security</li>
+                <li>Lynda.com: Go Essential Training</li>
+            </ul>
+        </div>
+        <a data-toggle="collapse" href="#collapseComs"><h4>Comunicación <i class="fa fa-angle-down"></i></h4></a>
+        <div class="collapse" id="collapseComs">
+            <ul>
+                <li>Español: Nativo</li>
+                <li>Inglés: Avanzado</li>
+            </ul>
+        </div>
+        <a data-toggle="collapse" href="#collapseSkills"><h4>Habilidades <i class="fa fa-angle-down"></i></h4></a>
+        <div class="collapse" id="collapseSkills">
+            <h5>Ofimática:</h5>
+            <ul>
+                <li>Microsoft Word: Avanzado</li>
+                <li>Microsoft PowerPoint: Avanzado</li>
+                <li>Microsoft Excel: Avanzado</li>
+            </ul>
+            <h5>Diseño Gráfico y Web:</h5>
+            <ul>
+                <li>Adobe Photoshop: Avanzado</li>
+                <li>HTML: Avanzado</li>
+                <li>CSS: Avanzado</li>
+                <li>JS: Intermedio</li>
+            </ul>
+            <h5>Desarrollo:</h5>
+            <ul>
+                <li>PHP: Avanzado (con conocimientos de los frameworks más utilizados)</li>
+                <li>MySQL: Intermedio</li>
+                <li>C: Intermedio</li>
+                <li>Ruby: Básico</li>
+                <li>Go: Básico</li>
+            </ul>
+        </div>
+        <div class="centerlinks">
+            <a href="https://github.com/sant1g/sant1g.github.io" title="Ver en GitHub" target="_blank"><i class="fa fa-github"></i></a> 
+        </div>
     </div> <!-- Final Container -->
 </body>
 </html>
