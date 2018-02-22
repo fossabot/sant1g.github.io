@@ -2,9 +2,9 @@ body {
   padding: 0px;
   margin: 0px;
   background-color: #fff;
+  background-image: url('../img/bg.png');
   background-position: left top;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
   font-size: 11pt;
   font-family: Inconsolata, monospace;
   color: #222;
