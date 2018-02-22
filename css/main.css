@@ -44,14 +44,18 @@ h5 {
   margin-bottom: 5px;
 }
 ul {
-  padding-left: 14px;
-  list-style-type: square;
+  padding-left: 0px;
+  list-style-type: none;
 }
 li {
   margin-bottom: 3px;
 }
+li::before {
+  content: "> ";
+}
 li > span {
   display: block;
+  padding-left: 15px;
 }
 .centerlinks {
   font-size: 24px;
