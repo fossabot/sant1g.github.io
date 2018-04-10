@@ -78,6 +78,7 @@ h4 {
 h5 {
   font-weight: 300;
   margin: 0;
+  margin-bottom: 5px;
   font-size: 0.9em;
   text-transform: uppercase;
 }
