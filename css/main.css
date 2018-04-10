@@ -1,65 +1,98 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Light.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
 body {
   padding: 0px;
   margin: 0px;
   background-color: #fff;
-  background-image: url('../img/bg.png');
-  background-position: left top;
-  background-repeat: repeat;
+  background: url('../img/blur-bg.jpg') fixed;
   font-size: 11pt;
-  font-family: Inconsolata, monospace;
-  color: #222;
+  font-family: 'Roboto';
+  color: #fff;
 }
 a, a:visited, a:focus {
-  color: #555;
+  color: #fff;
   text-decoration: none;
   transition: color 0.3s ease;
   border: none;
   outline: none;
 }
 a:hover {
-  color: #222;
+  color: #ddd;
   text-decoration: none;
 }
 #container {
-  margin: 50px auto;
+  margin: 0px auto;
   max-width: 900px;
   min-height: 20px;
   padding: 1em;
-  background-color: #ffffff;
   position: relative;
-  border: 2px solid #222;
+}
+.block {
+  background: url(../img/blur-bg-blurred.jpg) fixed;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 30px;
+}
+.block-header {
+  border-bottom: 1px solid rgba(0,0,0,.12);
+  height: 20px;
+  padding: 14px 22px;
+}
+.block-body {
+  border-top: 1px solid rgba(255,255,255,.08);
+  padding: 14px 22px;
+}
+.bodytop {
+  border-bottom: 1px solid rgba(0,0,0,.12);
 }
 p {
   max-width: 700px;
 }
 h3 {
-  font-weight: 700;
-  margin: 0;
+  font-weight: 300;
   font-size: 28px;
+  text-transform: uppercase;
 }
 h4 {
-  font-weight: 700;
+  font-weight: 300;
+  margin: 0;
+  font-size: 1.2em;
+  text-transform: uppercase;
 }
 h5 {
-  font-weight: 700;
-  margin-bottom: -10px;
+  font-weight: 300;
+  margin: 0;
   font-size: 0.9em;
+  text-transform: uppercase;
+}
+.right {
+  float: right;
 }
 ul {
-  padding-left: 0px;
+  margin: 0px;
+  padding: 0px;
   list-style-type: none;
 }
 li {
   margin-bottom: 3px;
 }
-li::before {
-  content: "> ";
-}
 li > span {
   display: block;
   padding-left: 15px;
-}
-.centerlinks {
-  font-size: 24px;
-  text-align: center;
 }

@@ -1,5 +1,2 @@
 # sant1g-resume
-### Content:
-* Font: Inconsolata
-* Background: #FFFFFF
-* Foreground: #222222
+Sitio web personal hecho en HTML5 y CSS3 puro.
