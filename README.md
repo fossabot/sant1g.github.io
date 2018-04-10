@@ -4,9 +4,9 @@ Personal Website made in HTML5 and CSS3.
 ## Credits
 
 This project includes software from:
-- [@daneden] (https://github.com/daneden/animate.css)
-- [@FortAwesome] (https://github.com/FortAwesome/Font-Awesome)
+- [@daneden](https://github.com/daneden/animate.css)
+- [@FortAwesome](https://github.com/FortAwesome/Font-Awesome)
 
 ## Licence
 
-Licenced under the MIT license. (http://opensource.org/licenses/MIT)
+Licenced under the MIT license. [More info](http://opensource.org/licenses/MIT)
