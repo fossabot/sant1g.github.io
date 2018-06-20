@@ -85,6 +85,17 @@ h5 {
 .right {
   float: right;
 }
+.footer {
+  margin-left: 4px;
+  font-size: 1.5em;
+  text-align: center;
+}
+.desktop {
+  display: none;
+}
+.mobile {
+  display: inline-block;
+}
 ul {
   margin: 0px;
   padding: 0px;
@@ -96,4 +107,13 @@ li {
 li > span {
   display: block;
   padding-left: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .desktop {
+    display: inline;
+  }
+  .mobile {
+    display: none;
+  }
 }
